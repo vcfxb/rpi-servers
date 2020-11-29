@@ -2,13 +2,51 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Use bootstrap for styling -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
 
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
 
+        <!-- Feather icons -->
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+        <script>
+            $( document ).ready(function() {
+                // Render Feather icons
+                feather.replace();
+            });
+        </script>
+
+        <link rel="icon" href="icon.png" type="image/png">
         <title>RPI Servers</title>
     </head>
-<body>
-Hello World
+<body class="bg-dark text-light">
+<div class="container p-4 align-content-center">
+    <div class="card text-dark">
+        <div class="card-header">
+            <span class="h2 card-title">Student Success @ Rensselaer</span>
+            <div class="float-right">
+                <a class="btn btn-primary" href="https://discord.gg/aB7Gunyv4z">Join</a>
+                <a class="btn btn-secondary" href="https://success.studentlife.rpi.edu/">Website</a>
+            </div>
+        </div>
+        <div class="card-body">
+            RPI's student success office is a division of the student life department. The student success server
+            is a good place to ask your deans academic questions. This includes anything regarding Pass/No-Credit,
+            the ARCH, and ALAC.
+        </div>
+        <div class="card-footer">
+            <a href="https://twitter.com/RPISuccess?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @RPISuccess</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="text-muted">
+                #admin #academic #rpi #rensselaer #student #success #pnc #p/nc #arch #alac
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
