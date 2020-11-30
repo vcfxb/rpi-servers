@@ -26,10 +26,25 @@
 <body class="bg-dark text-light">
 <!-- Server listings -->
 <div class="container p-sm-3 align-content-center">
-    <h1 class="h1 mb-2">RPI Discord Server Directory</h1>
-    <a class="badge badge-danger" href="https://github.com/Alfriadox/rpi-servers/issues/new/choose">
-        Report an issue
-    </a>
+    <h1 id="top" class="h1 mb-2">RPI Discord Server Directory</h1>
+    <div class="mb-3">
+        <a class="badge badge-danger" href="https://github.com/Alfriadox/rpi-servers/issues/new/choose">
+            Report an issue
+        </a>
+        <a href="#admin" class="badge badge-secondary">Jump to RPI Admin Servers</a>
+        <a href="#community" class="badge badge-secondary">Jump to Community Servers</a>
+        <a href="#course" class="badge badge-secondary">Jump to Course Specific Servers</a>
+        <a href="#club" class="badge badge-secondary">Jump to Club Servers</a>
+        <a href="#misc" class="badge badge-secondary">Jump to Miscellaneous Servers</a>
+    </div>
+    <br>
+
+    <!-- RPI Admin Servers -->
+    <div id="admin" class="mb-3">
+        <h2>RPI Admin Servers</h2>
+        Official servers run by RPI admin.
+        <a href="#top" class="badge badge-secondary float-right">Back to top</a>
+    </div>
     <div class="server">
         <div class="card-header">
             <span class="server-name">Student Success</span>
@@ -47,7 +62,7 @@
             the ARCH, and ALAC.
         </div>
         <div class="tags">
-            #admin #academic #pnc #p/nc #arch #alac
+            #academic #pnc #p/nc #arch #alac
         </div>
     </div>
     <div class="server">
@@ -63,7 +78,7 @@
             working on a resume and applying to jobs and internships.
         </div>
         <div class="tags">
-            #admin #ccpd #career #professional #jobs #internships
+            #ccpd #career #professional #jobs #internships
         </div>
     </div>
     <div class="server">
@@ -79,8 +94,15 @@
             coursework in the school of science during their time at RPI.
         </div>
         <div class="tags">
-            #sos #ug #scihub #academic #admin
+            #sos #ug #scihub #academic
         </div>
+    </div>
+
+    <!-- Community Servers -->
+    <div id="community" class="mb-3">
+        <h2>Community Servers</h2>
+        Large servers that represent different communities within RPI.
+        <a href="#top" class="badge badge-secondary float-right">Back to top</a>
     </div>
     <div class="server">
         <div class="card-header">
@@ -137,19 +159,39 @@
             #lgbt #queer #lesbian #gay #bi #bisexual #trans #transgender
         </div>
     </div>
+
+    <!-- Course Servers -->
+    <div id="course" class="mb-3">
+        <h2>Course Specific Servers</h2>
+        Servers for engagement with specific courses at RPI.
+        <a href="#top" class="badge badge-secondary float-right">Back to top</a>
+    </div>
     <div class="server">
         <div class="card-header">
-            <span class="server-name">Pokemon GO @ RPI</span>
+            <span class="server-name">Rensselaer Center for Open Source</span>
             <div class="float-right">
-                <a href="https://discord.gg/vQbwtte" class="join-button">Join</a>
+                <a href="https://rcos-discord.herokuapp.com/" class="join-button">Join</a>
+                <a href="https://rcos.io" class="other-button">Website</a>
+                <a href="https://www.facebook.com/RCOSatRPI" class="other-button">
+                    <i data-feather="facebook">Facebook</i>
+                </a>
             </div>
         </div>
         <div class="card-body">
-            Unofficial Pokemon Go server for the Troy area. Has a channel for the RPI campus.
+            The official server for the Rensselaer Center for Open Source (RCOS). Participation in this
+            organization is offed for credit each semester. Students must verify their identity with
+            the RPI Central Authentication System before joining the server.
         </div>
         <div class="tags">
-            #pokemon
+            #official #rcos #oss
         </div>
+    </div>
+
+    <!-- Club Servers -->
+    <div id="club" class="mb-3">
+        <h2>Club Servers</h2>
+        Servers that represent different union-affiliated clubs at RPI.
+        <a href="#top" class="badge badge-secondary float-right">Back to top</a>
     </div>
     <div class="server">
         <div class="card-header">
@@ -168,9 +210,7 @@
     </div>
     <div class="server">
         <div class="card-header">
-            <span class="server-name">
-	    RPI *nix Club
-	    </span>
+            <span class="server-name">RPI *nix Club</span>
             <div class="float-right">
                 <a href="https://discord.gg/nZBjczUnym" class="join-button">Join</a>
             </div>
@@ -180,6 +220,27 @@
         </div>
         <div class="tags">
             #linux #free-software #official #BSD #MacOS #UNIX
+        </div>
+    </div>
+
+    <!-- Misc Servers -->
+    <div id="misc" class="mb-3">
+        <h2>Miscellaneous Servers</h2>
+        Servers that pertain to RPI outside of the other categories.
+        <a href="#top" class="badge badge-secondary float-right">Back to top</a>
+    </div>
+    <div class="server">
+        <div class="card-header">
+            <span class="server-name">Pokemon GO @ RPI</span>
+            <div class="float-right">
+                <a href="https://discord.gg/vQbwtte" class="join-button">Join</a>
+            </div>
+        </div>
+        <div class="card-body">
+            Unofficial Pokemon Go server for the Troy area. Has a channel for the RPI campus.
+        </div>
+        <div class="tags">
+            #pokemon
         </div>
     </div>
 </div>
