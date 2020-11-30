@@ -15,13 +15,11 @@
         <!-- Feather icons -->
         <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
-        <script>
-            $( document ).ready(function() {
-                // Render Feather icons
-                feather.replace();
-            });
-        </script>
+        <!-- Custom script and styling -->
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
 
+        <!-- Icon and title -->
         <link rel="icon" href="icon.png" type="image/png">
         <title>RPI Servers</title>
     </head>
@@ -32,13 +30,13 @@
     <a class="badge badge-danger" href="https://github.com/Alfriadox/rpi-servers/issues/new/choose">
         Report an issue
     </a>
-    <div class="card text-dark my-3">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">Student Success</span>
+            <span class="server-name">Student Success</span>
             <div class="float-right">
-                <a class="btn btn-primary" href="https://discord.gg/aB7Gunyv4z">Join</a>
-                <a class="btn btn-secondary" href="https://success.studentlife.rpi.edu/">Website</a>
-                <a class="btn btn-secondary" href="https://twitter.com/RPISuccess">
+                <a class="join-button" href="https://discord.gg/aB7Gunyv4z">Join</a>
+                <a class="other-button" href="https://success.studentlife.rpi.edu/">Website</a>
+                <a class="other-button" href="https://twitter.com/RPISuccess">
                     <i data-feather="twitter">Twitter</i>
                 </a>
             </div>
@@ -48,70 +46,70 @@
             is a good place to ask your deans academic questions. This includes anything regarding Pass/No-Credit,
             the ARCH, and ALAC.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #admin #academic #pnc #p/nc #arch #alac
         </div>
     </div>
-    <div class="card text-dark mb-3">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">Center for Career and Professional Development</span>
+            <span class="server-name">Center for Career and Professional Development</span>
             <div class="float-right">
-                <a href="https://discord.gg/awcshcP" class="btn btn-primary">Join</a>
-                <a href="https://info.rpi.edu/career-development" class="btn btn-secondary">Website</a>
+                <a class="join-button" href="https://discord.gg/awcshcP">Join</a>
+                <a class="other-button" href="https://info.rpi.edu/career-development">Website</a>
             </div>
         </div>
         <div class="card-body">
             The CCPD (or Center for Career and Professional Development) is a useful resource for RPI students
             working on a resume and applying to jobs and internships.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #admin #ccpd #career #professional #jobs #internships
         </div>
     </div>
-    <div class="card mb-3 text-dark">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">School Of Science Hub</span>
+            <span class="server-name">School Of Science Hub</span>
             <div class="float-right">
-                <a href="https://discord.gg/ZhHSkve" class="btn btn-primary">Join</a>
-                <a href="https://science.rpi.edu/hub" class="btn btn-secondary">Website</a>
+                <a href="https://discord.gg/ZhHSkve" class="join-button">Join</a>
+                <a href="https://science.rpi.edu/hub" class="other-button">Website</a>
             </div>
         </div>
         <div class="card-body">
             The School of Science Hub is a resource to advice students (including incoming students) about their
             coursework in the school of science during their time at RPI.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #sos #ug #scihub #academic #admin
         </div>
     </div>
-    <div class="card mb-3 text-dark">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">RPI Academic Chat</span>
+            <span class="server-name">RPI Academic Chat</span>
             <div class="float-right">
-                <a href="https://discord.gg/rpi" class="btn btn-primary">Join</a>
+                <a href="https://discord.gg/rpi" class="join-button">Join</a>
             </div>
         </div>
         <div class="card-body">
             This is the largest RPI discord server. There are dedicated channels for each RPI class, as well as
             multiple channels for general conversation.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #academics #unofficial
         </div>
     </div>
-    <div class="card mb-3 text-dark">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">Main RPI Server/Subreddit Server</span>
+            <span class="server-name">Main RPI Server/Subreddit Server</span>
             <div class="float-right">
-                <a href="https://discord.gg/HN8Ecfu" class="btn btn-primary">Join</a>
-                <a href="https://www.reddit.com/r/RPI/" class="btn btn-secondary">Reddit Page</a>
-                <a href="https://www.facebook.com/rpireddit" class="btn btn-secondary">
+                <a href="https://discord.gg/HN8Ecfu" class="join-button">Join</a>
+                <a href="https://www.reddit.com/r/RPI/" class="other-button">Reddit Page</a>
+                <a href="https://www.facebook.com/rpireddit" class="other-button">
                     <i data-feather="facebook">Facebook</i>
                 </a>
-                <a href="https://twitter.com/RPIreddit" class="btn btn-secondary">
+                <a href="https://twitter.com/RPIreddit" class="other-button">
                     <i data-feather="twitter">Twitter</i>
                 </a>
-                <a href="https://t.me/RPI_Telegram" class="btn btn-secondary">
+                <a href="https://t.me/RPI_Telegram" class="other-button">
                     <i data-feather="send">Telegram</i> Telegram
                 </a>
             </div>
@@ -120,67 +118,67 @@
             This is the main discord server associated with RPI. This is a student run server
             for all current, previous, and prospective RPI students.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #unofficial
         </div>
     </div>
-    <div class="card text-dark mb-3">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">RPI LGBT+ 🏳️‍🌈</span>
+            <span class="server-name">RPI LGBT+ 🏳️‍🌈</span>
             <div class="float-right">
-                <a href="https://discord.gg/aGSbHyn" class="btn btn-primary">Join</a>
+                <a href="https://discord.gg/aGSbHyn" class="join-button">Join</a>
             </div>
         </div>
         <div class="card-body">
             The RPI LGBT+ server is an open and welcoming space for Lesbian, Gay, Bisexual, and Transgender
             students (past, present, and prospective). Allies to the LGBT community are also welcome. 
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #lgbt #queer #lesbian #gay #bi #bisexual #trans #transgender
         </div>
     </div>
-    <div class="card text-dark mb-3">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">Pokemon GO @ RPI</span>
+            <span class="server-name">Pokemon GO @ RPI</span>
             <div class="float-right">
-                <a href="https://discord.gg/vQbwtte" class="btn btn-primary">Join</a>
+                <a href="https://discord.gg/vQbwtte" class="join-button">Join</a>
             </div>
         </div>
         <div class="card-body">
             Unofficial Pokemon Go server for the Troy area. Has a channel for the RPI campus.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #pokemon
         </div>
     </div>
-    <div class="card mb-3 text-dark">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">RESET Club</span>
+            <span class="server-name">RESET Club</span>
             <div class="float-right">
-                <a href="https://discord.gg/VNrveMv" class="btn btn-primary">Join</a>
+                <a href="https://discord.gg/VNrveMv" class="join-button">Join</a>
             </div>
         </div>
         <div class="card-body">
             RESET stands for Rensselaer for Ethics in Science, Engineering, and Technology.
             RESET is club at RPI that discusses ethics in STEM.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #ethics #stem
         </div>
     </div>
-    <div class="card mb-3 text-dark">
+    <div class="server">
         <div class="card-header">
-            <span class="h2 card-title">
+            <span class="server-name">
 	    RPI *nix Club
 	    </span>
             <div class="float-right">
-                <a href="https://discord.gg/nZBjczUnym" class="btn btn-primary">Join</a>
+                <a href="https://discord.gg/nZBjczUnym" class="join-button">Join</a>
             </div>
         </div>
         <div class="card-body">
             A club that talks about linux, BSD, and other UNIX based operating systems.
         </div>
-        <div class="card-footer text-muted">
+        <div class="tags">
             #linux #free-software #official #BSD #MacOS #UNIX
         </div>
     </div>
