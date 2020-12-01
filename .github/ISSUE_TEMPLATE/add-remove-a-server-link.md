@@ -7,10 +7,10 @@ assignees: Alfriadox
 
 ---
 
-##Server name:
+## Server name:
 > The name of the server or the club it is associated with.
 
-##Server link:
+## Server link:
 > Link to the server. Feel free to also include links to an associated website and
 > social media accounts.
 
