@@ -1,8 +1,8 @@
 const class_aliases = {
     '.server': 'card text-dark mb-3',
     '.server-name': 'h3 card-title',
-    '.join-button': 'btn btn-primary',
-    '.other-button': 'btn btn-secondary',
+    '.join-button': 'btn btn-primary mb-1',
+    '.other-button': 'btn btn-secondary mb-1',
     '.tags': 'card-footer text-muted'
 };
 
